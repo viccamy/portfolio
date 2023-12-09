@@ -169,4 +169,8 @@ body {
         width: auto;
     }
 
+    .curriculo {
+        flex-direction: column-reverse;
+    }
+
 }
