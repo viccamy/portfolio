@@ -143,6 +143,13 @@ body {
 
 }
 
+.curriculo__imagem {
+    width: 100%;
+    height: auto;
+    max-width: 615px;
+}
+
+
 .secao__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -173,4 +180,22 @@ body {
         flex-direction: column-reverse;
     }
 
-}
+    .curriculo__conteudo {
+            width: 100%;
+            padding: 0 5%;
+        }
+    
+    .secao__titulo {
+            font-size: 1.8rem;
+        }
+    
+    .secao__texto {
+            font-size: 1.2rem;
+        }
+
+        .curriculo__imagem {
+            width: 100%;
+            max-width: none;
+        }
+    }
+    
